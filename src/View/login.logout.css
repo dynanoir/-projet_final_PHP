@@ -1,0 +1,76 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('background.webp'); 
+    background-size: cover;
+    background-position: center;
+    color: #333;
+}
+
+/* Bloc de formulaire centré */
+.form-container {
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    width: 400px;
+    max-width: 90%;
+    text-align: center;
+}
+
+/* Titre du formulaire */
+.form-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Message d'erreur */
+.error-message {
+    color: red;
+    margin-bottom: 20px;
+}
+
+/* Styles pour les champs de saisie */
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Bouton de soumission */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0078d7;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005bb5; 
+}
+
+
+a {
+    color: #0078d7;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
